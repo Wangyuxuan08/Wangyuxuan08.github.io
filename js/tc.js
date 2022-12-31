@@ -1,0 +1,1 @@
+"use strict";document.body.addEventListener("keydown",function(e){var t=(e=e||window.event).which||e.keyCode,e=e.ctrlKey||17===t;86==t&&e?Snackbar.show({text:"粘贴？你干嘛啊哎哟喂~",pos:"top-center"}):67==t&&e&&Snackbar.show({text:"吾辈宣布你的剪贴板我占领了",pos:"top-center"})},!1);
